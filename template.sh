@@ -14,16 +14,15 @@ then
     wget https://raw.githubusercontent.com/SolonRubens/templates/main/src/template.py
 elif [ $1 == "node_express" ]
 then
-    git clone --branch main --no-checkout https://github.com/SolonRubens/templates.git
-    cd templates
-    git sparse-checkout set node_express
-    git checkout main
-    cd ..
-    cp -R templates/src/node_express ./node_express
-    rm -r templates
-    cd node_express
-    npm init
-    npm i express
+    wget https://raw.githubusercontent.com/SolonRubens/templates/main/src/node_express.sh
+    chmod +x node_express.sh
+    if [ -z "$2" ]
+    then
+        ./node_express.sh
+    else
+        ./node_express.sh $2
+    fi    
+    rm node_express.sh
 elif [ $1 == "vue3" ]
 then
     npm init vue@latest
