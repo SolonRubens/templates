@@ -1,6 +1,9 @@
 #!/bin/bash
 
-if [ $1 == "c" ]
+if [ -z "$1"]
+then
+    echo "To few arguments provided"
+elif [ $1 == "c" ]
 then
     wget https://raw.githubusercontent.com/SolonRubens/templates/main/src/template.c
 elif [ $1 == "cpp" ]
@@ -27,4 +30,18 @@ then
     cd "$(\ls -1dt ./*/ | head -n 1)"
     npm install
     npm run dev
+elif [ $1 == "-h" ]
+then
+    echo "---------------------------------------------------------"
+    echo "TEMPLATE - Template generator (C) 2023 by Jonathan Silber"
+    echo "---------------------------------------------------------"
+    echo ""
+    echo "Usage: template [format]"
+    echo ""
+    echo "Supported format values:"
+    echo "  c"
+    echo "  cpp"
+    echo "  py"
+    echo "  node_express"
+    echo "  vue3"
 fi

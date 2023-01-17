@@ -17,10 +17,9 @@ Currently supported are:
 There are two ways to use this repository, if you are mostly working offline you should consider using Method 2 for anyone else Method 1 should be working fine.
 If you're one of those weirdos how are still using Windows scroll down to Method 3 and 4.
 
-If you don't want to scroll through the installation instructions, you can watch my YouTube instructions for
-[Windows](https://youtube.com/)
-
-[Unix-Based Distros](https://youtube.com/)
+If you don't want to scroll through the installation instructions, you can watch my YouTube instructions video for
+- [Windows](https://youtube.com/)
+- [Unix-Based Distros](https://youtube.com/)
 ### Method 1 - You have consistent and permanent internet
 
 #### Clone the necessary file
@@ -93,3 +92,11 @@ wget https://raw.githubusercontent.com/SolonRubens/templates/main/template.bat
 Wherever you download it to remember to add the folder afterwards to your PATH variable.
 
 ### Method 4 - Local Version for Windows
+
+#### Clone the repository
+
+At first you have to clone the repository to wherever you want
+```bash
+git clone https://github.com/SolonRubens/template.git
+```
+Make sure you add template_offline.bat to your path
