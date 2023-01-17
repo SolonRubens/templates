@@ -14,10 +14,9 @@ then
     cp /opt/templates/src/template.py .
 elif [ $1 == "express" ]
 then
-    cp -R /opt/templates/src/node_express ./node_express
-    cd node_express
-    npm init
-    npm i express
+    cp -R /opt/templates/src/node_express.sh .
+    ./node_express.sh
+    rm node_express.sh
 elif [ $1 == "vue3" ]
 then
     npm init vue@latest
@@ -36,7 +35,7 @@ then
     echo "  c"
     echo "  cpp"
     echo "  py"
-    echo "  node_express"
+    echo "  express"
     echo "  vue3"
 else
     echo "An error occurred while running template"

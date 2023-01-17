@@ -2,6 +2,7 @@
 
 mkdir $1
 cd $1
+touch index.js
 mkdir src
 cd src
 mkdir configs

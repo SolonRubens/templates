@@ -12,7 +12,7 @@ then
 elif [ $1 == "py" ]
 then
     wget https://raw.githubusercontent.com/SolonRubens/templates/main/src/template.py
-elif [ $1 == "node_express" ]
+elif [ $1 == "express" ]
 then
     wget https://raw.githubusercontent.com/SolonRubens/templates/main/src/node_express.sh
     chmod +x node_express.sh
@@ -41,6 +41,6 @@ then
     echo "  c"
     echo "  cpp"
     echo "  py"
-    echo "  node_express"
+    echo "  express"
     echo "  vue3"
 fi
