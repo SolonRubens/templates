@@ -10,7 +10,7 @@ Currently supported are:
 - C++
 - Python
 
-## How to use
+## Install
 
 There are two ways to use this repository, if you are mostly working offline you should consider using Method 2 for anyone else Method 1 should be working fine.
 
