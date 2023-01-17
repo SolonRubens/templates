@@ -19,6 +19,7 @@ If you're one of those weirdos how are still using Windows scroll down to Method
 
 If you don't want to scroll through the installation instructions, you can watch my YouTube instructions for
 [Windows](https://youtube.com/)
+
 [Unix-Based Distros](https://youtube.com/)
 ### Method 1 - You have consistent and permanent internet
 
