@@ -1,0 +1,24 @@
+{
+    "private": true,
+    "name": "@audaris/conveyor-source-twinner",
+    "version": "1.0.0",
+    "description": "Load images from Twinner",
+    "main": "index.js",
+    "keywords": [],
+    "author": "audaris GmbH <info@audaris.de>",
+    "license": "SEE LICENSE IN LICENSE",
+    "scripts": {
+        "update-lib": "npm install --package-lock-only @audaris/conveyor-import-source@latest",
+        "testeln": "node index.js"
+    },
+    "dependencies": {
+        "@audaris/conveyor-import-source": "^2.3.0",
+        "body-parser": "^1.20.1",
+        "express": "^4.18.2",
+        "got": "^11.8.5",
+        "ms": "^2.1.3",
+        "node-fetch": "^2.6.7",
+        "nodemon": "^2.0.20",
+        "dotenv": "^16.0.3"
+    }
+}

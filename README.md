@@ -11,6 +11,13 @@ Currently supported are:
 - Python
 - Node-Express
 - Vue3
+- PHP [Beta] 
+- Java [Beta]
+- C# [Beta]
+- Ruby
+- Perl
+- Haskell
+- 
 
 ## Install
 
